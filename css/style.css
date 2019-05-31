@@ -22,7 +22,27 @@
 	background: green;
 }
 }
+div, img{
+	display: block;
+	margin: auto;
+}
+.novedad {
+	text-align: center!important;
+	font-family: 'Righteous', cursive;
+}
 
+h5 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #424041;
+}
 
+h6 {
+	font-size: 1.2em;
+	color: #757575;
+}
 
+.novedad p {
+	color: #000;
+}
 
