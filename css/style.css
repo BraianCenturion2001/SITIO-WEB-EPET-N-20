@@ -3,44 +3,121 @@
 	margin: 0;
 	padding: 0;
 }
-#contenedor{
-	margin: 0.5em auto;
-	width: 1200px;
-	height: 1200px;
-	background:#D8D8D8;
+
+.logo{
+display: block;
+margin: auto;
+padding: 15px;
+text-align: center;
 }
-#menu{
-	height: 20%;
-	background: #A4A4A4;
-	border-radius: 1em;
-	margin: 1em;
+#contenedor{width: 1000px;
+margin:auto;
 }
-#galeria{
-  	height: 10%;
-	background:#424242;
-	border-radius: 1em;
-	margin: 1em;
+
+body{
+	background-image: url("../img/carousel_1.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+
+	-webkit-background-size: cover; 
+	 -moz-background-size: cover; 
+    -o-background-size: cover; 
 }
-#cuerpo{
-	height: 50%;
-	background:#FFFFFF; 
+
+#menu{height: 40px;
+background-color: #26749A;
+border-radius: 10px;
+text-align: center;
 }
+/*aplico estilo al menu horizontal*/
+#menu ul, ol {
+				list-style:none;
+			}
+
+.nav > li {
+
+				float: left;
+			}
+
+.nav li a {
+				background-color: #26749A;
+				color:#F6F8FC;
+				text-decoration: none;
+				padding:10px;
+				display: block;
+			}
+
+.nav li a:hover {
+				background-color:#8FCF73;
+			}
+
+.nav{
+	width: 500px;
+	margin: 0 auto;
+		}
+
+
+/*termino de aplicar estilo al menu horizontal*/
+
+#fondolat{
+background:#6F939B;
+overflow: hidden;
+border-radius: 10px;
 }
-#cuerpo2{
-	width: 1200px;
-	height: 1200px;
-	background:#424242;
-	border-radius: 1em;
+
+#blateral{width: 200px;
+float: left;
+font: 18px verdana ;
+color: #fff;
 }
-#blat{
-	width: 100%;
-	height: 70%px;
-	background:#A4A4A4;
-	border-radius: 1em;
+#blateral ul li{list-style: none;
+padding: 10px;
+margin: 5px;}
+#blateral a:hover {
+	font-size: 1.1em;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 5px rgba(0,0,0,.8);	
+	}
+#blateral a:hover img { 
+	 -webkit-transform: translate(5px); 
+	 -moz-transform: translate(5px); 
+    -o-transform: translate(5px); 
+    transform: translate(5px);
+    -webkit-transition: all .3s ease-in-out; 
+    -moz-transition: all .3s ease-in-out; 
+    -o-transition: all .3s ease-in-out; 
+    transition: all .3s ease-in-out;
 }
-#pie{
-	height: 20%;
-	background: #A4A4A4;
-	border-radius: 1em;
-	margin: 1em;
+
+#cuerpo{width: 740px;
+background: #C79193;
+padding: 30px;
+float: left;
+overflow: hidden;
+border-radius: 10px 5px;
 }
+
+#pie{clear: both;
+	height: 80px;
+	color:#F6F8FC; 
+	text-align: center;
+	font: 18px verdana ;
+	color: #fff;
+	border-radius: 10px;
+	opacity: .5;
+}
+/*
+#pie li img {
+vertical-align: middle;
+margin-right: 5px;
+}
+#pie ul li{list-style: none;}
+#pie a {
+	color: #EBEBEB;
+}
+
+#pie a:hover {
+	color: #ccc;
+}*/
