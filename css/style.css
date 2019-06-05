@@ -10,8 +10,9 @@ margin: auto;
 padding: 15px;
 text-align: center;
 }
-#contenedor{width: 1000px;
-margin:auto;
+#contenedor{
+	width: 1000px;
+	margin:auto;
 }
 
 body{
@@ -23,22 +24,22 @@ body{
 
 	-webkit-background-size: cover; 
 	 -moz-background-size: cover; 
-    -o-background-size: cover; 
+    -o-background-size: cover;
 }
 
-#menu{height: 40px;
+#menu{
+	height: 40px;
 background-color: #26749A;
-border-radius: 10px;
 text-align: center;
+font: 14px verdana;
 }
 /*aplico estilo al menu horizontal*/
 #menu ul, ol {
 				list-style:none;
 			}
 
-.nav > li {
-
-				float: left;
+.nav > li{
+	float: left;
 			}
 
 .nav li a {
@@ -62,62 +63,153 @@ text-align: center;
 /*termino de aplicar estilo al menu horizontal*/
 
 #fondolat{
-background:#6F939B;
+background-color: white;
 overflow: hidden;
-border-radius: 10px;
 }
 
-#blateral{width: 200px;
+#blateral{
+	width: 200px;
 float: left;
-font: 18px verdana ;
-color: #fff;
+font: 16px verdana ;
+background-color: #26749A;
 }
-#blateral ul li{list-style: none;
-padding: 10px;
-margin: 5px;}
+#blateral ul li{
+list-style: none;
+padding: 5px;
+margin: 5px;
+}
 #blateral a:hover {
 	font-size: 1.1em;
 	color: #FFFFFF;
 	text-shadow: 2px 2px 5px rgba(0,0,0,.8);	
-	}
-#blateral a:hover img { 
-	 -webkit-transform: translate(5px); 
-	 -moz-transform: translate(5px); 
-    -o-transform: translate(5px); 
-    transform: translate(5px);
-    -webkit-transition: all .3s ease-in-out; 
-    -moz-transition: all .3s ease-in-out; 
-    -o-transition: all .3s ease-in-out; 
-    transition: all .3s ease-in-out;
 }
 
 #cuerpo{width: 740px;
-background: #C79193;
+background: white;
 padding: 30px;
 float: left;
+font: 15px Times;
 overflow: hidden;
 border-radius: 10px 5px;
 }
 
-#pie{clear: both;
-	height: 80px;
-	color:#F6F8FC; 
+#pie{
+	background-color: #26749A;
 	text-align: center;
-	font: 18px verdana ;
+	font: 15px verdana ;
 	color: #fff;
-	border-radius: 10px;
-	opacity: .5;
 }
-/*
-#pie li img {
-vertical-align: middle;
-margin-right: 5px;
+#pie ul li{
+	list-style: none;
+	margin: auto;
+	padding: 1px;
 }
-#pie ul li{list-style: none;}
-#pie a {
-	color: #EBEBEB;
+#contenedor_head {
+	width: 860px;
+	margin:20px auto 25px;
+	background-color: transparent;
+	padding:10px;
+	border:3px solid #333333;
+	border-radius:2px;
+	color:rgb(3, 8, 8);
+	box-shadow:#000000 0 3px 12px;
+	box-shadow:rgb(238, 224, 224) 0 2px 50px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+  }
+  #head {
+	height: 200px;
+	background-color:transparent;
+	border:3px solid rgb(202, 189, 198);
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+  }
+
+	#head h1{text-align: center;
+	padding: 50px;}
+	#head p{text-align: center;
+	}
+
+/*FIN JENIFER*/
+/*Braian Inicio*/
+#cuerpo h5{
+	padding: 3px;
+	font: 20px;
 }
 
-#pie a:hover {
-	color: #ccc;
-}*/
+#cuerpo h6{
+	padding: 3px;
+	font: 17px;
+}
+
+#cuerpo p{
+	padding: 3px;
+	font: 14px Times;
+}
+
+#cuerpo1{
+width: 1000px;
+background: white;
+float: left;
+font: 14px Times;
+overflow: hidden;
+}
+
+table {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    margin: auto;     
+    width: 480px; text-align: left;    
+    border-collapse: collapse;
+}
+
+th {
+	font-size: 13px;
+	font-weight: normal;     
+	padding: 10px;     
+	background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    
+    border-bottom: 1px solid #fff; 
+    color: #039; 
+}
+
+td {    
+	padding: 8px;     
+	background: #e8edff;     
+	border-bottom: 1px solid #fff;
+    color: #669;    
+    border-top: 1px solid transparent; 
+}
+
+tbody tr:hover td { 
+	background: #d0dafd; 
+	color: #339; 
+}
+
+caption{
+	font: 18px Times;
+	padding: 10px;
+}
+
+/*Inicio Esteban*/
+
+.cuerpo{
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 10px;
+}
+
+.cuerpo p{
+	text-align: left;
+
+}
+
+.col-md-6-cargo{
+	font: 18px Times;
+}
+
+.text-center{
+	font: 24px Times;
+}
