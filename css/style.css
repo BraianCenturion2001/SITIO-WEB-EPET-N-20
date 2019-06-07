@@ -28,10 +28,11 @@ body{
 }
 
 #menu{
-	height: 40px;
+	height: 38px;
 background-color: #26749A;
 text-align: center;
 font: 14px verdana;
+padding: 5px;
 }
 /*aplico estilo al menu horizontal*/
 #menu ul, ol {
@@ -46,17 +47,19 @@ font: 14px verdana;
 				background-color: #26749A;
 				color:#F6F8FC;
 				text-decoration: none;
-				padding:10px;
+				padding-top: 10px;
+				margin-right: 10px;
 				display: block;
 			}
 
 .nav li a:hover {
 				background-color:#8FCF73;
+				color: #000000;
 			}
 
 .nav{
-	width: 500px;
 	margin: 0 auto;
+	width: 550px;
 		}
 
 
@@ -107,7 +110,7 @@ border-radius: 10px 5px;
 #contenedor_head {
 	width: 860px;
 	margin:20px auto 25px;
-	background-color: transparent;
+	background-color: #26749A;
 	padding:10px;
 	border:3px solid #333333;
 	border-radius:2px;
@@ -121,7 +124,7 @@ border-radius: 10px 5px;
   }
   #head {
 	height: 200px;
-	background-color:transparent;
+	background-color: white;
 	border:3px solid rgb(202, 189, 198);
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
@@ -212,4 +215,55 @@ caption{
 
 .text-center{
 	font: 24px Times;
+}
+
+#eventos{
+	text-align: center;
+	
+}
+#eventos h2{
+	font: 20px Times;
+	padding: 10px;
+}
+
+#eventos h3{
+	font: 17px Times;
+	padding: 10px;
+}
+
+#eventos dt{
+	font: 15px Times;
+	padding: 10px;
+}
+
+#eventos dd{
+	font: 12px Times;
+	padding: 10px;
+}
+
+#h2centrado{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 33px;
+}
+
+#ulinscripciones{
+	border: 3px solid #26749A;
+	list-style: none;
+
+}
+
+#ulinscripciones li a{
+	text-decoration: none;
+	color: #000000;
+}
+
+#ulinscripciones li a:hover{
+	color: #26749A;
+
+}
+
+#ulinscripciones li:hover{
+	border: 1px solid #000000;
+	color: #000000;
 }
